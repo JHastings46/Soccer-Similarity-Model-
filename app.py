@@ -13,7 +13,7 @@ st.markdown("### Who Plays Like Lionel Messi?")
 
 @st.cache_data
 def load_data():
-    url = "url = "https://raw.githubusercontent.com/JHastings46/Soccer-Similarity-Model-/main/messi_scout_output_combined%20(3).csv"
+    url = "https://raw.githubusercontent.com/JHastings46/Soccer-Similarity-Model-/main/messi_scout_output_combined.csv"
     df = pd.read_csv(url)
     df.columns = df.columns.str.lower().str.strip()
     return df
