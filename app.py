@@ -93,10 +93,8 @@ def color_uncertainty(val):
         return "color: red; font-weight: bold"
 
 styled = filtered[available_cols].style\
-    .applymap(color_fit_bucket, subset=["fit_bucket"])\
-    .applymap(color_uncertainty, subset=["uncertainty_band"])\
-    .format({"similarity_score": "{:.3f}", "goals_per90_adj": "{:.2f}", "shots_per90_adj": "{:.2f}"})\
-    .hide(axis="index")
+    .map(color_fit_bucket, subset=["fit_bucket"])\
+    .map(color_uncertainty, subset=["uncertainty_band"])\
 
 st.dataframe(filtered[available_cols].reset_index(drop=True), use_container_width=True)
 
