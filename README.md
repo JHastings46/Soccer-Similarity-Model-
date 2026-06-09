@@ -2,6 +2,20 @@
 
 This project is a **Soccer Player Similarity Model** designed specifically for **Major League Soccer (MLS)** data from FBref. Its main goal is to help soccer teams find new players who play a lot like their current stars or specific targets.
 
+## Project Readme: Finding Similar Soccer Players (MLS Edition)
+This project is a **Soccer Player Similarity Model** designed specifically for **Major League Soccer (MLS)** data from FBref. Its main goal is to help soccer teams find new players who play a lot like their current stars or specific targets.
+
+---
+
+## Live Demos
+
+| Tool | Link |
+| --- | --- |
+| 📊 Tableau Dashboard | [View Dashboard](https://public.tableau.com/app/profile/joel.hastings/viz/MLSPlayerSimilarityDashboard-MessiComparison/Dashboard1) |
+| ⚽ Streamlit App | [Launch App](https://yipeaghbjqzz9gtwkg5gbu.streamlit.app/) |
+
+---
+
 ### What does it do?
 
 Imagine you have a great player and you want to find others who have a similar playing style, or perhaps a younger version of them. This model helps with that by:
